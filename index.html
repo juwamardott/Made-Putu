@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pawiwahan</title>
+    <link rel="stylesheet" href="src/output.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Belleza&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-import -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=WindSong&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+    </style>
+
+    <!-- countsdowm-->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+  </head>
+  <body>
+    <!-- controls audio -->
+
+    <!-- Hero -->
+    <section id="hero">
+      <div
+        class="w-full bg-[url('../img/bg-hero3.png')] lg:bg-[url('../img/bg-hero4.png')] lg:bg-bottom bg-cover h-screen bg-bottom relative"
+      >
+        <!-- Undangan -->
+        <div
+          class="absolute lg:bottom-2 bottom-10 right-0 left-0 text-center p-2"
+        >
+          <div class="text-4xl font-semibold">
+            <img src="img/dwipa.png" alt="" class="w-60 lg:w-96 mx-auto" />
+
+            <!-- Nama Undangan -->
+            <div class="font-beleza mb-5">
+              <p class="mb-4 text-sm">Kepada Bapak/Ibu/Saudara/i</p>
+              <span id="nama" class="text-xl">Mardood</span>
+            </div>
+
+            <!-- Buka undangan -->
+            <div
+              class="border p-1 w-44 flex font-beleza text-base items-center mx-auto group cursor-pointer justify-around bg-kuning-0 rounded-md shadow-md group"
+            >
+              <img src="icon/mail.png" alt="" class="w-10" />
+              <a href="#" id="buka-undangan">Buka Undangan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <!-- Pengantin -->
+    <section id="pengantin">
+      <div class="w-full bg-white py-10">
+        <div class="container mx-auto">
+          <!-- Inisial -->
+          <div class="">
+            <img src="img/A.png" alt="" class="w-24 mx-auto" />
+          </div>
+          <!-- endinisial -->
+          <!-- Doa -->
+          <div class="w-[95%] mx-auto text-center font-beleza text-sm">
+            <p class="mb-2">
+              "Ya Tuhanku Yang Maha Pengasih, anugrahkanlah kepada pasangan ini
+              senantiasa kebahagiaan, kesehatan, tetap bersatu dan tidak pernah
+              terpisahkan, panjang umur dan tinggal di rumah yang penuh
+              kegembiraan bersama seluruh keturunannya"
+            </p>
+            <p>- Rg Veda X.85.42</p>
+          </div>
+          <!-- ENd Doa -->
+          <!-- Nama Pengantin -->
+          <div
+            class="lg:flex lg:justify-around lg:w-[80%] block mx-auto w-full pt-5 mt-5 relative"
+          >
+            <!-- Cowok -->
+            <div class="">
+              <img src="img/2.png" alt="" class="w-52 lg:w-80 mx-auto" />
+              <!-- Detail Cowok -->
+              <div class="text-center mt-5">
+                <h1 class="font-alison text-4xl lg:text-6xl">
+                  I Kadek Dwipayana
+                </h1>
+                <!-- Ayah dan ibu -->
+                <div class="font-beleza mt-4 lg:text-lg">
+                  <p>Putra kedua dari pasangan</p>
+                  <p>I Nyoman Lorem</p>
+                  <p>&</p>
+                  <p>Ni Nyoman Lorem</p>
+                </div>
+              </div>
+            </div>
+            <!-- Dan -->
+            <div class="flex items-center">
+              <img src="img/dan.png" alt="" class="w-20 mx-auto" />
+            </div>
+            <!-- Cewek -->
+            <div class="">
+              <img src="img/1.png" alt="" class="w-52 lg:w-80 mx-auto" />
+              <!-- Detail Cowok -->
+              <div class="text-center mt-5">
+                <h1 class="font-alison text-4xl lg:text-6xl">Ni Luh Arsini</h1>
+                <!-- Ayah dan ibu -->
+                <div class="font-beleza mt-4 lg:text-lg">
+                  <p>Putra kedua dari pasangan</p>
+                  <p>I Nyoman Lorem</p>
+                  <p>&</p>
+                  <p>Ni Nyoman Lorem</p>
+                </div>
+              </div>
+            </div>
+            <!-- Bunga -->
+            <div class="absolute top-0 right-0">
+              <img src="img/18.png" alt="" class="lg:w-36 w-24" />
+            </div>
+            <!-- Bunga -->
+            <div class="absolute top-0 left-0">
+              <img src="img/17.png" alt="" class="lg:w-36 w-24" />
+            </div>
+            <!-- Bunga -->
+            <div class="absolute bottom-0 right-0 rotate-180">
+              <img src="img/17.png" alt="" class="lg:w-36 w-24" />
+            </div>
+            <!-- Bunga -->
+            <div class="absolute bottom-0 left-0 rotate-180">
+              <img src="img/18.png" alt="" class="lg:w-36 w-24" />
+            </div>
+          </div>
+          <!-- End Pengantin -->
+          <div class="w-full mt-10">
+            <!-- OM -->
+            <div class="py-5">
+              <img src="img/om.png" alt="" class="w-28 lg:w-32 mx-auto" />
+              <!-- Ucapan om swastiastu -->
+              <div class="my-4">
+                <h1 class="font-alura text-4xl lg:text-6xl text-center">
+                  Om Swastyastu
+                </h1>
+              </div>
+              <!-- Ucapan -->
+              <div class="w-[95%] lg:w-[50%] text-center mx-auto mt-5">
+                <p class="text-sm font-beleza">
+                  Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/
+                  Tuhan Yang Maha Esa, kami bermaksud mengundang Bapak/ Ibu/
+                  Saudara/ i pada Upacara Manusa Yadnya Pawiwahan putra dan
+                  putri kami yang akan diselenggarakan pada :
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="lg:w-[60%] sm:w-[70%] w-80% shadow-md mx-auto rounded-md mb-5 relative"
+            >
+              <img
+                src="img/background.png"
+                alt=""
+                class="w-auto h-auto rounded-md opacity-60"
+              />
+
+              <div
+                class="w-[55%] top-5 lg:top-20 left-[2%] lg:left-[5%] absolute p-2 font-beleza"
+              >
+                <h1 class="text-xl lg:text-4xl">Pawiwahan</h1>
+                <div class="w-[100px] h-[2px] bg-biru-0 mb-2"></div>
+
+                <div class="w-full flex lg:text-xl">
+                  <img src="icon/clock.png" alt="" class="w-5" />
+                  <h1>10 : 00 WITA - SELESAI</h1>
+                </div>
+
+                <div class="w-full text-sm lg:text-lg mt-2">
+                  <h1>
+                    Br. Sadnyasari Desa Ekasari, Kec. Melaya, Kab. Jembrana
+                  </h1>
+                </div>
+              </div>
+              <!-- Line -->
+              <div
+                class="bg-biru-0 absolute top-0 right-40 lg:right-60 w-[2px] h-full"
+              ></div>
+              <!-- Hari/tanggal/tahun -->
+              <div
+                class="absolute top-[20%] lg:top-[30%] lg:right-[7%] right-[5%] font-beleza text-center"
+              >
+                <h1 class="text-3xl lg:text-6xl">Jumat</h1>
+                <h1 class="text-4xl lg:text-5xl font-semibold">22</h1>
+                <h1 class="text-xl lg:text-2xl">September 2024</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Momen Bahagia -->
+    <section id="momen-bahagia">
+      <div class="w-full">
+        <div class="container mx-auto">
+          <!-- Bunga -->
+          <div class="w-full mb-3">
+            <img src="img/flower.png" alt="" class="w-44 lg:w-56 mx-auto" />
+          </div>
+          <div class="w-full">
+            <h1 class="font-alison text-4xl lg:text-6xl text-center">
+              Momen Bahagia
+            </h1>
+          </div>
+          <!-- Gallery -->
+          <div class="grid lg:grid-cols-4 grid-cols-2 gap-2 lg:gap-4 p-2 group">
+            <img
+              src="img/bg-1.jpg"
+              alt=""
+              class="rounded-md hover:scale-105 transition duration-500 cursor-pointer"
+            />
+            <img
+              src="img/bg-2.jpg"
+              alt=""
+              class="rounded-md hover:scale-105 transition duration-500 cursor-pointer"
+            />
+            <img
+              src="img/bg-4.jpg"
+              alt=""
+              class="rounded-md hover:scale-105 transition duration-500 cursor-pointer"
+            />
+            <img
+              src="img/bg-5.jpg"
+              alt=""
+              class="rounded-md hover:scale-105 transition duration-500 cursor-pointer"
+            />
+            <img
+              src="img/bg-6.jpg"
+              alt=""
+              class="rounded-md hover:scale-105 transition duration-500 cursor-pointer"
+            />
+            <img
+              src="img/bg-7.jpg"
+              alt=""
+              class="rounded-md hover:scale-105 transition duration-500 cursor-pointer"
+            />
+            <img
+              src="img/bg-8.jpg"
+              alt=""
+              class="rounded-md hover:scale-105 transition duration-500 cursor-pointer"
+            />
+            <img
+              src="img/bg-9.jpg"
+              alt=""
+              class="rounded-md hover:scale-105 transition duration-500 cursor-pointer"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hari-bahagia">
+      <div class="w-full">
+        <div class="container mx-auto">
+          <!-- hari-bahagia -->
+          <div class="w-full">
+            <img
+              src="img/flower.png"
+              alt=""
+              class="w-44 lg:w-56 mx-auto rotate-180"
+            />
+            <h1 class="font-alison text-4xl lg:text-6xl text-center mt-4">
+              Menuju Hari Bahagia
+            </h1>
+          </div>
+
+          <!-- Countdown -->
+          <div
+            id="simply-countdown"
+            class="font-beleza font-semibold text-center mx-auto lg:text-xl w-[90%] lg:w-[60%] text-base simply-countdown mt-4"
+          ></div>
+
+          <!--  -->
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="w-full mt-2">
+        <img src="img/padi.png" alt="" class="w-20 mx-auto mt-5" />
+        <h1 class="font-alison text-4xl lg:text-6xl text-center mt-4">
+          Kirim Ucapan
+        </h1>
+      </div>
+      <div class="w-80 mx-auto lg:w-11/12 mt-10">
+        <script
+          async
+          src="https://talk.hyvor.com/embed/embed.js"
+          type="module"
+        ></script>
+        <hyvor-talk-comments
+          website-id="10485"
+          page-id=""
+        ></hyvor-talk-comments>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="w-full bg-kuning-0 py-5">
+        <h1 class="lg:text-2xl text-sm font-beleza text-center">
+          @ 2024 juwamardott.com | All Rights Reserved
+        </h1>
+      </div>
+    </section>
+
+    <div>
+      <audio loop id="song">
+        <source src="audio/takemyheart.mp3" />
+      </audio>
+    </div>
+
+    <div class="fixed bottom-5 right-5 hidden" id="music">
+      <img src="icon/music.png" alt="" class="w-10 animate-spin" />
+    </div>
+
+    <script>
+      // <!-- Countdown -->
+      simplyCountdown(".simply-countdown", {
+        year: 2024, // required
+        month: 2, // required
+        day: 30, // required
+        hours: 20, // Default is 0 [0-23] integer
+        minutes: 0, // Default is 0 [0-59] integer
+        seconds: 0, // Default is 0 [0-59] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "Hari", plural: "Hari" },
+          hours: { singular: "Jam", plural: "Jam" },
+          minutes: { singular: "Menit", plural: "Menit" },
+          seconds: { singular: "Detik", plural: "Detik" },
+        },
+      });
+    </script>
+
+    <script>
+      const song = document.querySelector("#song");
+      const Open = document.querySelector("#buka-undangan");
+      const music = document.querySelector("#music");
+      let isPlaying = false;
+      Open.addEventListener("click", function () {
+        enableScroll();
+        playaudio();
+        music.style.display = "block";
+      });
+
+      music.addEventListener("click", function () {
+        if (isPlaying) {
+          song.pause();
+          music.innerHTML = `<img src="icon/music.png" alt="" class="w-10" />`;
+        } else {
+          song.play();
+          music.innerHTML = `<img src="icon/music.png" alt="" class="w-10 animate-spin" />`;
+        }
+        isPlaying = !isPlaying;
+      });
+
+      function playaudio() {
+        song.volume = 0.9;
+        song.play();
+        isPlaying = true;
+      }
+      function disableScroll() {
+        ScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        ScrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(screenTop, screenLeft);
+        };
+      }
+
+      disableScroll();
+
+      function enableScroll() {
+        // Fungsi ini akan memindahkan pengguna ke halaman kedua dengan animasi smooth
+        window.scrollTo({
+          top: 700,
+          behavior: "smooth",
+        });
+
+        // Setelah 1 detik, aktifkan kembali fungsi onscroll agar pengguna dapat menggulir secara normal
+        setTimeout(function () {
+          window.onscroll = function () {};
+        }, 0);
+      }
+    </script>
+  </body>
+</html>
