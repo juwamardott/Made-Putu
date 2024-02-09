@@ -44,7 +44,7 @@
             <!-- Nama Undangan -->
             <div class="font-beleza mb-2">
               <p class="text-sm">Kepada Bapak/Ibu/Saudara/i</p>
-              <span id="nama" class="text-xl">Mardood</span>
+              <span id="nama" class="text-xl">s</span>
             </div>
 
             <!-- Buka undangan -->
@@ -467,6 +467,12 @@
     </script>
 
     <script>
+      const UrlParams = new URLSearchParams(window.location.search);
+      const nama = UrlParams.get("nama");
+
+      const Tamu = document.querySelector("#nama");
+      Tamu.innerText = nama;
+
       const song = document.querySelector("#song");
       const Open = document.querySelector("#buka-undangan");
       const music = document.querySelector("#music");
